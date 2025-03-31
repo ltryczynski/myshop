@@ -7,7 +7,7 @@ export default function ProductList({ className }: { className?: string }) {
   return (
     <section className={cn("grid grid-cols-4 gap-6", className)}>
       {DUMMY_PRODUCTS.map((product) => (
-        <ProductCard product={product} />
+        <ProductCard product={product} key={product.id} />
       ))}
     </section>
   );
