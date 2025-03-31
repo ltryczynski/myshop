@@ -1,5 +1,6 @@
+import { TProduct } from "./types";
 
-export const DUMMY_PRODUCTS = [
+export const DUMMY_PRODUCTS: TProduct[] = [
   {
     id: 1,
     title: "Product 1",
